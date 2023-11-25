@@ -12,20 +12,20 @@ package VueloH;
 
 public class cls_Persona {
         private String str_nombre;
-    private int int_edad;
+        private int int_edad;
    
     
-    public cls_Personasona(String n, String c){
-        this.str_nombre = n;
-        this.str_codigo = c;
+    public cls_Persona(String nombre, int edad){
+        this.str_nombre = nombre;
+        this.int_edad = edad;
         
     }
     //SETTERs
-    public void setNombre (String nombre) {this.str_nombre  = nombre;}
-    public void setDireccion (String direccion) {this.str_direccion  = direccion;}
+    public void setStr_nombre (String str_nombre) {this.str_nombre  = str_nombre;}
+    public void setInt_edad (int int_edad) {this.int_edad  = int_edad;}
     
     //GETTERs
-    public String getCodigo(){return this.str_codigo;}
+    public int getInt_edad(){return this.int_edad;}
     public String getNombre(){return this.str_nombre;}
 
 }
